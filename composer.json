@@ -1,0 +1,15 @@
+{
+  "name": "lilHermit/cakephp-plugin-toolkit",
+  "description": "Toolkit plugin for CakePHP-3",
+  "type": "cakephp-plugin",
+  "require-dev": {
+    "php": ">=5.5.9",
+    "cakephp/cakephp": "~3.2",
+    "cakephp/plugin-installer": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "lilHermit\\Toolkit\\": "src/"
+    }
+  }
+}
