@@ -1,5 +1,5 @@
 <?php
-namespace lilHermit\Model\Behavior;
+namespace lilHermit\Toolkit\Model\Behavior;
 
 use Cake\Datasource\EntityInterface;
 use Cake\Event\Event;

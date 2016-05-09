@@ -4,7 +4,7 @@ This plugin contains lots of useful content in one plugin
 
 ## Installation
 
-- Merge the following to your `require` section of composer.json, replacing {{version}} with any repo tags (eg `v1.0`, `v1.1`) or `dev-master` if you want the bleeding edge
+- Merge the following to your `require` section of composer.json, replacing {{version}} with any repo tags (eg `1.0`, `1.1`) or `dev-master` if you want the bleeding edge
 
 ```
   "require": {
@@ -33,7 +33,7 @@ Plugin::load('lilHermit/Tookit', ['bootstrap' => true]);
 
 ## SluggableBehavior
 
-Add the Behavior to any Table using `$this->addBehavior('lilHermit/Sluggable');` in the `initialize` method
+Add the Behavior to any Table using `$this->addBehavior('lilHermit/Toolkit.Sluggable');` in the `initialize` method
 
 The Behavior takes the following config options
 
@@ -49,7 +49,7 @@ The Behavior takes the following config options
 Pass the options as an array like
 
 ```
-$this->addBehavior('lilHermit/Sluggable', [
+$this->addBehavior('lilHermit/Toolkit.Sluggable', [
     'field' => 'name',
     'lowerCase' => true,
     'onUpdate' => false
