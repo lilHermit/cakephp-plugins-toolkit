@@ -33,7 +33,7 @@ Plugin::load('lilHermit/Tookit', ['bootstrap' => true]);
 
 ## SluggableBehavior
 
-Add the Behavior to any Table using `$this->addBehavior('lilHermit/Sluggable');`
+Add the Behavior to any Table using `$this->addBehavior('lilHermit/Sluggable');` in the `initialize` method
 
 The Behavior takes the following config options
 
@@ -45,3 +45,13 @@ The Behavior takes the following config options
 | lowercase     | Boolean       | false     | Should the slug be converted to lowercase
 | onCreate      | Boolean       | true      | Should the slug be updated on Create
 | onUpdate      | Boolean       | true      | Should the slug be updated on Update
+
+Pass the options as an array like
+
+```
+$this->addBehavior('lilHermit/Sluggable', [
+    'field' => 'name',
+    'lowerCase' => true,
+    'onUpdate' => false
+]);
+```
