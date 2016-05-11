@@ -16,8 +16,6 @@ composer config repositories.lilhermit-cakephp-plugin-toolkit vcs https://bitbuc
 composer require lilhermit/cakephp-plugin-toolkit:1.*
 ```
 
-- Perform a composer update
-
 - Load the plugin in your `bootstrap.php`
 
 ```
