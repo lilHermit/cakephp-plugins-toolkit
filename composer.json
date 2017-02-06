@@ -5,7 +5,9 @@
   "require-dev": {
     "php": ">=5.5.9",
     "cakephp/cakephp": "~3.2",
-    "cakephp/plugin-installer": "*"
+    "cakephp/plugin-installer": "*",
+    "phpunit/phpunit": "^5.3",
+    "squizlabs/php_codesniffer": "2.*"
   },
   "autoload": {
     "psr-4": {
