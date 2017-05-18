@@ -1,11 +1,11 @@
 <?php
 
 
-namespace lilHermit\Toolkit\Test\TestCase\Utility;
+namespace LilHermit\Toolkit\Test\TestCase\Utility;
 
 
 use Cake\TestSuite\TestCase;
-use lilHermit\Toolkit\Utility\Html;
+use LilHermit\Toolkit\Utility\Html;
 
 class HtmlTest extends TestCase
 {

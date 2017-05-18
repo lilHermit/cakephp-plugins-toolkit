@@ -1,6 +1,6 @@
 <?php
 
-namespace lilHermit\Toolkit\Utility;
+namespace LilHermit\Toolkit\Utility;
 
 use Cake\Utility\Hash;
 
