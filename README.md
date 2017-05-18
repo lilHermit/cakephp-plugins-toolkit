@@ -19,12 +19,12 @@ composer require lilhermit/cakephp-plugin-toolkit:1.*
 - Load the plugin in your `bootstrap.php`
 
 ```
-Plugin::load('lilHermit/Tookit', ['bootstrap' => true]);
+Plugin::load('LilHermit/Tookit', ['bootstrap' => true]);
 ```
 
 ## SluggableBehavior
 
-Add the Behavior to any Table using `$this->addBehavior('lilHermit/Toolkit.Sluggable');` in the `initialize` method
+Add the Behavior to any Table using `$this->addBehavior('LilHermit/Toolkit.Sluggable');` in the `initialize` method
 
 The Behavior takes the following config options
 
@@ -40,7 +40,7 @@ The Behavior takes the following config options
 Pass the options as an array like
 
 ```
-$this->addBehavior('lilHermit/Toolkit.Sluggable', [
+$this->addBehavior('LilHermit/Toolkit.Sluggable', [
     'field' => 'name',
     'lowerCase' => true,
     'onUpdate' => false
