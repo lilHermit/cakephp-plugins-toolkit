@@ -19,7 +19,7 @@ composer require lilhermit/cakephp-plugin-toolkit:1.*
 - Load the plugin in your `bootstrap.php`
 
 ```
-Plugin::load('LilHermit/Tookit', ['bootstrap' => true]);
+Plugin::load('LilHermit/Toolkit', ['bootstrap' => true]);
 ```
 
 ## SluggableBehavior
