@@ -1,2 +1,3 @@
 <?php
-## intentionally blank
+
+require dirname(__DIR__) . '/src/basics.php';
