@@ -4,12 +4,6 @@ This plugin contains lots of useful content in one plugin
 
 ## Installation
 
-- Add this Bitbucket repository with the following:
-
-```
-composer config repositories.lilhermit-cakephp-plugin-toolkit vcs https://bitbucket.org/lilHermit/cakephp-plugins-toolkit.git
-```
-
 - Add the plugin with the following command, replacing `1.*` with `dev-master` if you want the bleeding edge:
 
 ```
