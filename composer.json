@@ -3,7 +3,7 @@
   "description": "Toolkit plugin for CakePHP-3",
   "type": "cakephp-plugin",
   "require": {
-    "cakephp/cakephp": "^3.7 - ^4.0",
+    "cakephp/cakephp": "3.7 - 4.0",
     "jdorn/sql-formatter": "^1.2.0"
   },
   "require-dev": {
